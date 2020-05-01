@@ -20,3 +20,9 @@ Remember a chair has:
 
 This is your boilerplate Dockerfile, which includes a Makefile to quickly run 
 your tests and get inside the container to debug 
+
+This workshop will also work locally, but working on a docker container will give 
+us a more real-scenario idea of how to do this in a professional environment
+
+If you want to skip the local build you can use the image `joseangelsc/tdd_workshop`
+from dockerhub 
