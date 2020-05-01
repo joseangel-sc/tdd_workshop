@@ -16,7 +16,7 @@ So, let's start by following this steps
 
 Until we cover all the business requirements, so far these are: 
 
-A chair needs to have: 
+A chair needs to have: n
 
 - A material
 - At least 3 legs (or it could not stand)

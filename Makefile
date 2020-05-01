@@ -7,7 +7,7 @@ build:
 	docker build -t ${IMG} .
 
 tests:
-	docker run ${IMG} python -m unittest
+	docker run -v ${PWD}:/app ${IMG} python -m unittest
 
 push:
 	docker push ${IMG}
