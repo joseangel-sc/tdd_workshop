@@ -1,23 +1,13 @@
-Let's start creating a basic test 
+Now the business has a new requirement, 
 
-We know that we need to create digital chairs: 
+A chair needs the possibility: 
 
-So, let's start by following this steps 
+If requested, a chair model will be able to adapt between 1, 2 or 3 people
 
-- Test that the class `Chair` exists 
+Meaning, that you can create a chair, but it is expected that if you call a 
+`set_capacity` method, the chair will increase or decrease the number of people 
+that can be sat there.. 
 
-- Run tests 
+Unless the color of the chair is blue, then, it can only have 1 person 
 
-- Test will fail 
-
-- Create class `Chair`
-
-. . . . . . . . . And so on 
-
-Until we cover all the business requirements, so far these are: 
-
-A chair needs to have: n
-
-- A material
-- At least 3 legs (or it could not stand)
-- At least one color
+So, in this branch, go on and create 1st the test for this problem 
