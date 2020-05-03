@@ -7,7 +7,7 @@ the future.
 
 This is what we know so far: 
 
-You're company is about to launch digital chairs, digital chairs have all the 
+Your company is about to launch digital chairs, digital chairs have all the 
 characteristics of normal chairs, except for the fact that they are digital (duh!)
 
 You will be launching (for now) just one model.
