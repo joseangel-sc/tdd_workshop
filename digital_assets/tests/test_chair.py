@@ -1,5 +1,5 @@
 from unittest import TestCase
-from digital_assets.chairs import Chair, CantStandException
+from digital_assets.chairs import Chair, CantStandException, OnlyOnePersonException
 
 
 class TestChair(TestCase):
