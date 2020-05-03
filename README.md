@@ -1,13 +1,29 @@
-Now the business has a new requirement, 
+After running the tests, we see that the first thing to fail is that 
+the `Chair` object does not have the attribute `capacity` so, let's go and add only that 
+to our class. 
+ 
+ . . . . . . . 
+ 
+After adding that we see that the `Exception` we were expecting was not raised. 
+Fix only that and import the exception in our tests (we should have done this previously)
 
-A chair needs the possibility: 
+ . . . . . . . 
 
-If requested, a chair model will be able to adapt between 1, 2 or 3 people
+Now the error is different, `Chair` is missing a method, let's fix it and do 
+nothing inside it.
 
-Meaning, that you can create a chair, but it is expected that if you call a 
-`set_capacity` method, the chair will increase or decrease the number of people 
-that can be sat there.. 
+ . . . . . . . 
+ 
+Up's, it needs to take mor arguments than just `self`, add a parameter called, `capacity` 
+and run the tests again
 
-Unless the color of the chair is blue, then, it can only have 1 person 
+ . . . . . . . 
 
-So, in this branch, go on and create 1st the test for this problem 
+Because the chair is blue, it can only take one person, raise our exception if that is 
+the case, rerun the tests 
+
+ . . . . . . . . 
+ 
+`None is not true` ! The tests even tell you what your function should return
+
+. . . . . . .  
